@@ -8,7 +8,7 @@ class ReadCongig_data():
     def getURLS(self):
         return config.get('URLS','dev_url')
 
-    def getUsername(self):
+    def getUsername(self):# crea
         return config.get('login data','username')
 
     def getPassword(self):
