@@ -18,4 +18,4 @@
 
 
 ## How to execute the tests
-
+ *pytest -s -v -m"dev" --alluredir="allure-results"--browser chrome

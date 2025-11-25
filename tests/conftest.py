@@ -14,7 +14,7 @@ def setup(browser):
 
 
     else:
-        browser = webdriver.safari
+        driver = webdriver.safari
 
     return driver
 

@@ -16,10 +16,3 @@ class ReadCongig_data():
 
     def getName(self):
         return config.get('user information','name')
-
-
-
-
-
-
-
