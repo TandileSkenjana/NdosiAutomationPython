@@ -11,7 +11,7 @@ class HomePage:
     def __init__(self, driver):
         self.driver = driver
 
-    def verifyNdosiHeading(self, timeout=10):
+    def verifyNdosiHeading(self):
         """Wait for the heading to be visible and return True/False."""
         wait = WebDriverWait(self.driver, 10)
         element = wait.until(EC.visibility_of_element_located((By.ID, self.lbl_Heading_id)))
