@@ -18,8 +18,8 @@ def setup(browser):
 
     return driver
 
-def pytest_adoption(parser):
-    parser.adoption("--browser")
+def pytest_addoption(parser):
+    parser.addoption("--browser",action="store", default="chrome")
 
 
 @pytest.fixture()
